@@ -23,7 +23,7 @@ if(isset($_POST['user']) && $_POST['user']!=""){
 //method login
 function loginUsers($cn ,$usuarioLogin,$passLogin ){
 	try{
-		$sql="SELECT * FROM login WHERE usuario=? AND pwd=?";
+		$sql="SELECT * FROM persona WHERE nombre=? AND apellido=?";
 		$result=$cn->prepare($sql);
 		$result->execute(array($usuarioLogin,$passLogin));
 		if($result->rowCount()>0){

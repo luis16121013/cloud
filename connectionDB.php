@@ -3,7 +3,7 @@
         static private $host="localhost";
         static private $port="3306";
         static private $db="persona";
-        static private $user="root";
+        static private $user="puma";
 		    static private $pass="123";
 
         public static function getConexion(){
