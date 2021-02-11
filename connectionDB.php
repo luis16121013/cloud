@@ -2,9 +2,9 @@
     class mysqlDB{
         static private $host="localhost";
         static private $port="3306";
-        static private $db="cloud";
+        static private $db="persona";
         static private $user="root";
-		    static private $pass="Jorge16221032@";
+		    static private $pass="123";
 
         public static function getConexion(){
            try{
