@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1> Bienvenido <?php $persona->nombre; ?>></h1>
+<h1> Bienvenido <?php $persona->nombre; ?></h1>
 
 </body>
 </html>
