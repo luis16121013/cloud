@@ -1,6 +1,6 @@
 <?php
     class mysqlDB{
-        static private $host="54.173.175.248";
+        static private $host="localhost";
         static private $port="3306";
         static private $db="cloud";
         static private $user="root";
