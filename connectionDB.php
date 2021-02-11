@@ -4,7 +4,7 @@
         static private $port="3306";
         static private $db="cloud";
         static private $user="root";
-		    static private $pass="Mcloud";
+		    static private $pass="Jorge16221032@";
 
         public static function getConexion(){
            try{
